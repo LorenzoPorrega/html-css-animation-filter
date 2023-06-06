@@ -110,10 +110,7 @@
 
 .ex-10-icon {
     font-size: 60px;
-    animation-name: "gira-img-10";
-    animation-timing-function: linear;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation: gira-img-10 1.5s linear infinite;
 }
 
 @keyframes gira-img-10 {
@@ -132,9 +129,7 @@
 
 .ex-11-icon:hover{
     animation-name: "gira-img-11";
-    animation-timing-function: linear;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation: gira-img-11 1.5s linear infinite;
 }
 
 @keyframes gira-img-11 {
